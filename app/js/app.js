@@ -5,14 +5,20 @@
 var phonecatApp = angular.module('phonecatApp', [
   'ngRoute',
   'phonecatAnimations',
-
   'phonecatControllers',
   'phonecatFilters',
   'phonecatServices'
 ]);
 
-phonecatApp.config(['$routeProvider',
-  function($routeProvider) {
+
+
+phonecatApp.config(['$routeProvider', '$locationProvider',
+  function($routeProvider, $locationProvider) {
+
+      //$locationProvider.html5Mode(true);
+      $locationProvider.hashPrefix('!');
+
+
     $routeProvider.
       when('/phones', {
         templateUrl: 'partials/phone-list.html',
@@ -25,4 +31,19 @@ phonecatApp.config(['$routeProvider',
       otherwise({
         redirectTo: '/phones'
       });
-  }]);
+
+      //$locationProvider.hasPrefix('!');
+  }
+
+]);
+
+
+
+/*
+phonecatApp.config(['$location',
+    function($location) {
+        $location.hashPrefix('!');
+    }
+]);
+
+    */
