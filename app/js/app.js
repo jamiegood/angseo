@@ -15,7 +15,6 @@ var phonecatApp = angular.module('phonecatApp', [
 phonecatApp.config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
 
-      //$locationProvider.html5Mode(true);
       $locationProvider.hashPrefix('!');
 
 
@@ -36,14 +35,3 @@ phonecatApp.config(['$routeProvider', '$locationProvider',
   }
 
 ]);
-
-
-
-/*
-phonecatApp.config(['$location',
-    function($location) {
-        $location.hashPrefix('!');
-    }
-]);
-
-    */
