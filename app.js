@@ -21,4 +21,4 @@ app.all('/app/*', function(req, res, next) {
      res.sendFile('app/index.html', { root: __dirname });
 });
 
-app.listen(3000); //the port you want to use
+ app.listen(process.env.PORT || 3000); //the port you want to use
