@@ -1,5 +1,16 @@
 # Angular JS SEO Test
 
+## Setup
+
+	bower isntall
+
+	npm install
+
+
+## Start up
+
+Start node express server
+	node app.js
 
 ## URL
 
