@@ -10,6 +10,7 @@
 var express = require('express');
 var app = express();
 
+app.use('/', express.static(__dirname + '/'));
 app.use('/app', express.static(__dirname + '/app'));
 //app.use('/app/phones', express.static(__dirname + '/app/phones'));
 //app.use('/app/css', express.static(__dirname + '/app/css'));
