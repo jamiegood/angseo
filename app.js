@@ -10,6 +10,8 @@
 var express = require('express');
 var app = express();
 
+app.use(require('prerender-node').set('prerenderToken', 'BaKTQ4JlnMnwphhUnAbQ'));
+
 app.use('/', express.static(__dirname + '/'));
 app.use('/app', express.static(__dirname + '/app'));
 //app.use('/app/phones', express.static(__dirname + '/app/phones'));
@@ -22,4 +24,4 @@ app.all('/app/*', function(req, res, next) {
      res.sendFile('app/index.html', { root: __dirname });
 });
 
- app.listen(process.env.PORT || 3000); //the port you want to use
+ app.listen(process.env.PORT || 3001); //the port you want to use
