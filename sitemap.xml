@@ -1,12 +1,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://rocky-oasis-6387.herokuapp.com/app/phones/</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
+        <loc>https://rocky-oasis-6387.herokuapp.com/app/phones/</loc>
+    </url>
+    <url>
+        <loc>https://rocky-oasis-6387.herokuapp.com/app/phones/motorola-xoom</loc>
+    </url>
+    <url>
+        <loc>https://rocky-oasis-6387.herokuapp.com/app/phones/motorola-xoom-with-wi-fi</loc>
+    </url>
+    <url>
+        <loc>http://rocky-oasis-6387.herokuapp.com/app/phones/motorola-xoom</loc>
+    </url>
+    <url>
+        <loc>http://rocky-oasis-6387.herokuapp.com/app/phones/motorola-xoom/</loc>
+    </url>
+    <url>
+        <loc>http://rocky-oasis-6387.herokuapp.com/app/phones/samsung-gem</loc>
     </url>
     <url>
         <loc>http://rocky-oasis-6387.herokuapp.com/app/phones/dell-streak-7</loc>
-        <changefreq>daily</changefreq>
-        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>http://rocky-oasis-6387.herokuapp.com/app/</loc>
+    </url>
+    <url>
+        <loc>http://rocky-oasis-6387.herokuapp.com/app/phones/dell-venue</loc>
+    </url>
+    <url>
+        <loc>https://rocky-oasis-6387.herokuapp.com/app/phones/dell-venue</loc>
+    </url>
+    <url>
+        <loc>http://rocky-oasis-6387.herokuapp.com/app/phones/motorola-xoom-with-wi-fi</loc>
+    </url>
+    <url>
+        <loc>http://rocky-oasis-6387.herokuapp.com/app/phones/</loc>
+    </url>
+    <url>
+        <loc>https://rocky-oasis-6387.herokuapp.com/app/</loc>
     </url>
 </urlset>
