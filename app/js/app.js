@@ -16,11 +16,11 @@ phonecatApp.config(['$routeProvider', '$locationProvider',
   function($routeProvider, $locationProvider) {
 
       $locationProvider.html5Mode(true);
-      //$locationProvider.hashPrefix('!');
+     // $locationProvider.hashPrefix('!');
 
 
     $routeProvider.
-      when('/app/phones', {
+      when('/app/phones/', {
         templateUrl: '/app/partials/phone-list.html',
         controller: 'PhoneListCtrl'
       }).
@@ -29,8 +29,20 @@ phonecatApp.config(['$routeProvider', '$locationProvider',
         controller: 'PhoneDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/app/phones'
+        redirectTo: '/app/phones/'
       });
+
+    // $routeProvider.
+    //   when('/app/phones/', {
+    //     templateUrl: '/app/partials/phone-list.html',
+    //     controller: 'PhoneListCtrl'
+    //   });
+
+
+
+      // otherwise({
+      //   redirectTo: '/app/phones'
+      // });
 
       //$locationProvider.hasPrefix('!');
   }

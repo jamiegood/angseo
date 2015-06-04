@@ -11,6 +11,11 @@ var express = require('express');
 var app = express();
 
 app.use(require('prerender-node').set('prerenderToken', 'BaKTQ4JlnMnwphhUnAbQ'));
+//app.use(require('prerender-node').set('prerenderServiceUrl', 'http://localhost:3000/'));
+
+
+//?_escaped_fragment_=
+
 
 app.use('/', express.static(__dirname + '/'));
 app.use('/app', express.static(__dirname + '/app'));
